@@ -1,0 +1,169 @@
+/* Reset by yahoo */
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym {border:0;font-variant:normal;}sup {vertical-align:text-top;}sub {vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+
+body {
+  color: #4e4e4e;
+  font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #3086a0;
+}
+a:hover {
+  background-color: #3086a0;
+  color: #fff;
+  text-decoration: none;
+}
+
+.clear:after {
+  display: block;
+  clear: both;
+  float: none;
+  text-indent: -9999em;
+  content: '.';
+  text-align: left;
+}
+
+#page {
+  margin: 2em auto;
+  width: 60em;
+  padding: 2em 2em 2em 3.33%;
+  overflow: visible;
+  position: relative;
+  background: #EEE;
+  border: 4px solid #CCC;
+}
+
+#primary {
+  float: left;
+  width: 60%;
+}
+
+#secondary {
+  float: left;
+  width: 35%;
+}
+
+#page h1 {
+  height: 1.25em;
+  font: 4em/0.25 "Palatino Linotype", Georgia, serif;
+  color: #000;
+  padding: 0.2em 0 0 0;
+}
+
+#page hr {
+	color: #EEE;
+	background: #EEE;
+	border-color: #EEE;
+}
+
+.section {
+  margin: 1.5em 1em 1.5em 0;
+  opacity: 0.9;
+}
+.section h2 {
+  width: auto;
+  height: auto;
+  background: none;
+  border-bottom: 1px solid #a0a0a0;
+  font: bold 2em/1.5 "Palatino Linotype", Georgia, serif;
+  margin-bottom: .75em;
+  color: #000;
+}
+
+/*
+ * Open source
+ */
+
+#open-source ul {
+  margin: 1.5em 0;
+}
+#open-source li {
+  margin-left: 1em;
+  padding-left: 1em;
+}
+#open-source li:before {
+  content: "‣ ";
+  position: absolute;
+  margin-left: -.65em;
+}
+
+/*
+ * Around the net
+ */
+#around-the-net li {
+  margin: .5em 0;
+}
+
+#around-the-net li em, #around-the-net li a, #around-the-net li span {
+  display: block;
+}
+
+#around-the-net li a {
+  padding: .4em;
+  text-decoration: none;
+  font-size: 1.5em;
+  line-height: 1;
+  color: #fff;
+}
+
+#around-the-net li span {
+  margin-top: .3em;
+  font-size: .8em;
+  line-height: 1.6;
+}
+
+/* blue */
+#around-the-net li a.github          { background-color: #468966; }
+#around-the-net li a.github:hover    { background-color: #386E52; }
+
+/* green */
+#around-the-net li a.linkedin        { background-color: #FFB03B; }
+#around-the-net li a.linkedin:hover  { background-color: #DB9733; }
+
+/* pink */
+#around-the-net li a.twitter         { background-color: #8E2800; }
+#around-the-net li a.twitter:hover   { background-color: #6A1E00; }
+
+/* orange */
+#around-the-net li a.wwr             { background-color: #B76516; }
+#around-the-net li a.wwr:hover       { background-color: #935112; }
+
+#around-the-net li a:hover {
+  background: none;
+}
+
+/*
+ * Get in touch
+ */
+#get-in-touch dl {
+  position: relative;
+}
+#get-in-touch dt {
+  position: absolute;
+  right: 29em;
+  text-align: right;
+  padding: 0 .5em;
+  color: #fff;
+}
+#get-in-touch dt.email  { background-color: #468966; }
+#get-in-touch dt.skype  { background-color: #FFB03B; }
+#get-in-touch dt.jabber { background-color: #8E2800; }
+#get-in-touch dt.mobile { background-color: #B76516; }
+
+#get-in-touch dd {
+  height: 2em;
+  margin-left: 8em;
+}
+
+/*
+ * Fork me badge
+ */
+#github-badge {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#github-badge a:hover { background: none; }
+
+#who p { font-family: Baskerville, Cochin, Constantia, serif; font-size: 1.5em; font-style: italic;}
